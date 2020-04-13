@@ -10,7 +10,6 @@ defmodule BeerSongTest do
              """
     end
 
-    @tag :pending
     test "last generic verse" do
       assert BeerSong.verse(3) == """
              3 bottles of beer on the wall, 3 bottles of beer.
@@ -18,7 +17,6 @@ defmodule BeerSongTest do
              """
     end
 
-    @tag :pending
     test "verse with 2 bottles" do
       assert BeerSong.verse(2) == """
              2 bottles of beer on the wall, 2 bottles of beer.
