@@ -24,7 +24,6 @@ defmodule BeerSongTest do
              """
     end
 
-    @tag :pending
     test "verse with 1 bottle" do
       assert BeerSong.verse(1) == """
              1 bottle of beer on the wall, 1 bottle of beer.
@@ -32,7 +31,6 @@ defmodule BeerSongTest do
              """
     end
 
-    @tag :pending
     test "verse with 0 bottles" do
       assert BeerSong.verse(0) == """
              No more bottles of beer on the wall, no more bottles of beer.
